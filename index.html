@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+    <div class="formu">
+        <form id="registroForm">
+            <h3 class="title">Bienvenido</h3>
+            <label for="user">Usuario</label>
+            <br>
+            <input type="text" name="user" id="userTxt" maxlength="20" class="controles">
+            <br>
+            <label for="passw">Contraseña</label>
+            <br>
+            <input type="password" name="passw" id="passwTxt" maxlength="20" class="controles">
+            <br>
+            <input type="button" id="loginBtn" value="Iniciar sesion" class="btn" onclick="handleUser()">
+        </form>
+    </div>
+</body>
+    <script src="JavaScript/login.js"></script>
+</html>
