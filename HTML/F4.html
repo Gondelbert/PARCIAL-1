@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para Administradores de la IA</title>
+    <link rel="stylesheet" href="../CSS/stile4.css">
+    <link rel="stylesheet" href="../CSS/contactus.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="admin1.html">Tabla de encuesta</a></li>
+                    <li><a href="F3.html">Encuesta 1</a></li>
+                    <li><a href="F4.html">Encuesta 2</a></li>
+                    <li><a href="../index.html">Cerrar sesion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Formulario para Administradores de la IA</h1>
+        <form id="adminForm">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+            
+            <label>Selecciona las opciones que más te interesen:</label><br>
+            <input type="checkbox" id="opcion1" name="opciones[]" value="Interfaz interactiva">
+            <label for="opcion1">Interfaz Interactiva</label><br>
+            <input type="checkbox" id="opcion2" name="opciones[]" value="Adaptabilidad a situaciones">
+            <label for="opcion2">Adaptabilidad a situaciones</label><br>
+            <input type="checkbox" id="opcion3" name="opciones[]" value="Multiplataforma">
+            <label for="opcion3">Multiplataforma</label><br>
+            <label for="comentarios">Comentarios adicionales:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <table id="tablaContainer">
+
+    </table>
+    <div class="contactus">
+        <h3>Contactenos</h3>
+        <h4>Numeros telefonicos</h4>
+        <li>316 4858089</li>
+        <li>305 2422580</li>
+        <h4>Correos electronicos</h4>
+        <li>mcastram@gmail.com</li>
+        <li>gondelbertdominique@gmail.com</li>
+    </div>
+    <script src="../JavaScript/F4.js"></script>
+</body>
+</html>

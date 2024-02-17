@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para Administradores de la IA</title>
+    <link rel="stylesheet" href="../CSS/stile3.css">
+    <link rel="stylesheet" href="../CSS/contactus.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="admin1.html">Tabla de encuesta</a></li>
+                    <li><a href="F3.html">Encuesta 1</a></li>
+                    <li><a href="F4.html">Encuesta 2</a></li>
+                    <li><a href="../index.html">Cerrar sesion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Formulario para Administradores de la IA</h1>
+    <div class="container">
+    <form method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+        
+        <label for="nivel_acceso">Nivel de acceso:</label><br>
+        <input type="radio" id="nivel_basico" name="nivel_acceso" value="Básico">
+        <label for="nivel_basico">Básico</label><br>
+        <input type="radio" id="nivel_intermedio" name="nivel_acceso" value="Intermedio">
+        <label for="nivel_intermedio">Intermedio</label><br>
+        <input type="radio" id="nivel_avanzado" name="nivel_acceso" value="Avanzado">
+        <label for="nivel_avanzado">Avanzado</label><br><br>
+        
+        <label for="tareas">Tareas asignadas:</label><br>
+        <textarea id="tareas" name="tareas" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="feedback">Feedback de los usuarios:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="problemas">Problemas reportados:</label><br>
+        <textarea id="problemas" name="problemas" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="sugerencias">Sugerencias para mejorar la IA:</label><br>
+        <textarea id="sugerencias" name="sugerencias" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="actualizaciones">Actualizaciones realizadas:</label><br>
+        <textarea id="actualizaciones" name="actualizaciones" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="plazos">Plazos de entrega:</label><br>
+        <textarea id="plazos" name="plazos" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="notas">Notas adicionales:</label><br>
+        <textarea id="notas" name="notas" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+<table id="tablaContainer">
+
+</table>
+<div class="contactus">
+    <h3>Contactenos</h3>
+    <h4>Numeros telefonicos</h4>
+    <li>316 4858089</li>
+    <li>305 2422580</li>
+    <h4>Correos electronicos</h4>
+    <li>mcastram@gmail.com</li>
+    <li>gondelbertdominique@gmail.com</li>
+</div>
+<script src="../JavaScript/F3.js"></script>
+</body>
+</html>
