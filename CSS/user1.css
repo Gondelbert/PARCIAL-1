@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    padding-top: 75px;
+    color: rgb(17, 161, 205);
+}
+.cuerpo p{
+    padding: 25px;
+    text-align: center;
+}
+.cuerpo h2{
+    text-align: center;
+    color: rgb(17, 161, 205);
+}
+.cuerpo img{
+    height: 400px;
+    width: 700px;
+    padding: 20px;
+}
+.imagenes{
+    display: flex;
+    justify-content: center;
+}
